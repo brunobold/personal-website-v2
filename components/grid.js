@@ -19,7 +19,7 @@ function GridLayout() {
                                 </div>
                             </div>
                         </div>
-                        <div className="mb-10 lg:-mt-24 mx-10 lg:mx-16">
+                        <div className="mb-12 lg:mt-64 mx-10 lg:mx-16">
                             <Link href="/projects/pokebox">
                                 <button className="text-zinc-800 text-lg lg:text-2xl h-12 lg:h-16 w-36 lg:w-48 bg-white hover:bg-gray-200 rounded-xl font-medium">
                                     <FontAwesomeIcon className="pr-2" icon={faSdCard}/>Read More 
@@ -44,7 +44,7 @@ function GridLayout() {
                             <h2 className="text-gray-100 text-md lg:text-lg leading-tight font-medium mb-16">ABOUT</h2>
                         </div>
                     </div>
-                    <div className="pb-4 -mt-16 mx-4 lg:mx-8">
+                    <div className="pb-4 lg:pt-16 mx-4 lg:mx-8">
                         <p className="text-white text-3xl lg:text-4xl rounded-xl font-medium">About Me</p>
                     </div>
                 </Link>
@@ -54,7 +54,7 @@ function GridLayout() {
                             <h2 className="text-gray-100 text-md lg:text-lg leading-tight font-medium mb-16">BLOG</h2>
                         </div>
                     </div>
-                    <div className="pb-4 -mt-16 mx-4 lg:mx-8">
+                    <div className="pb-4 lg:pt-16 mx-4 lg:mx-8">
                         <p className="text-white text-3xl lg:text-4xl rounded-xl font-medium">Blog</p>
                     </div>
                 </Link> 

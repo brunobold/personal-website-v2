@@ -3,6 +3,10 @@ import { Rubik } from '@next/font/google'
 
 import '../styles/globals.css'
 
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; /* eslint-disable import/first */
+
 import Navbar from "../components/navbar"
 
 const pageFont = Rubik({
